@@ -1,0 +1,13 @@
+# user
+.user
+
+# binaries
+.o
+.exe
+.com
+.lib
+
+# IDE-generated stuff
+.vs/
+.idea/
+.vscode/
