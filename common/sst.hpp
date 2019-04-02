@@ -89,6 +89,7 @@ enum {
 class ISSTChannel {
   virtual void key_on (uint8_t key_number, uint8_t velocity) {}
   virtual void key_off(uint8_t key_number) {}
+  virtual void on_tick() {}
 };
 
 }; // namespace sst

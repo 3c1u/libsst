@@ -18,8 +18,8 @@ void    process_buffer(size_t buffer_size, float *buffer);
 
 
 void    write_register(uint8_t reg, uint8_t value, bool a1 = false);
+uint8_t read_register(uint8_t reg, bool a1 = false);
 uint8_t read_status();
-void    write_status(uint8_t status_flag);
 void    hook_timer_handler(void (*timer_handler)());
 void    unhook_timer_handler();
 
